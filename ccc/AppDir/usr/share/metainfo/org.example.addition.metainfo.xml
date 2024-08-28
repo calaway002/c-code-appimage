@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="console-application">
+  <id>org.example.addition</id>
+  
+  <name>Addition Script</name>
+  <summary>A Python script to add two values</summary>
+  
+  <metadata_license>MIT</metadata_license>
+  <project_license>MIT</project_license> <!-- Changed to a standard license for demonstration -->
+  
+  <description>
+    <p>
+      This Python script performs a simple addition operation. 
+      You can provide two numerical values as input, and the script will output their sum. 
+      It is designed to be run from the terminal and is useful for demonstrating basic Python programming.
+    </p>
+  </description>
+  
+  <icon type="stock">addition.py</icon>
+  
+  <categories>
+    <category>Development</category>
+    <category>Utility</category>
+  </categories>
+  
+  <provides>
+    <binary>addition</binary>
+  </provides>
+</component>

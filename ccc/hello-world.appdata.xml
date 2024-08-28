@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component xmlns="http://www.freedesktop.org/standards/appstream">
+  <!-- Use reverse domain notation for the ID -->
+  <id>org.example.helloworld</id>
+  
+  <name>Hello World</name>
+  
+  <summary>A simple Hello World application</summary>
+  
+  <description>
+    This is a basic "Hello World" application packaged as an AppImage for demonstration purposes.
+  </description>
+  
+  <!-- Icon name should not include file extension -->
+  <icon>hello-world</icon>
+  
+  <!-- Add screenshot URLs or remove if not applicable -->
+  <screenshots>
+    <!-- Example screenshot URL -->
+    <!-- <screenshot>http://example.com/screenshot.png</screenshot> -->
+  </screenshots>
+  
+  <!-- Tags should be valid; include tags relevant to your app -->
+  <tags>
+    <tag>Utility</tag>
+    <!-- Add more tags if applicable -->
+  </tags>
+  
+  <!-- Include a license information -->
+  <license>MIT</license>
+</component>
